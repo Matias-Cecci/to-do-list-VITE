@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    color: white;
+    background-color: #2d3839;
+    font-family: Lato, sans-serif;
+    margin-top: 40px;
+}
+
+h1 {
+    color: #1b1b32;
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.task-app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-list-principal {
+    width: 600px;
+    min-height: 500px;
+    background-color: #e0e4ce;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 26px;
+}
